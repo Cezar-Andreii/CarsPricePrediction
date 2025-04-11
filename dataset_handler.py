@@ -1,6 +1,9 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+import xgboost as xgb
+import lightgbm as lgb
 
+print("✅ XGBoost și LightGBM sunt instalate corect!")
 # Încărcarea dataset-ului
 df = pd.read_csv("autos.csv", sep=",", encoding="utf-8")
 
